@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Demo3D">
+    <configurations>
+      <configuration name="Demo3D" pure-as="true" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/bin" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
+        <dependencies target-player="13.0">
+          <entries>
+            <entry module-name="Away3dLib" build-configuration-name="Away3dLib">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="FlexLiteLib" build-configuration-name="FlexLiteLib">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="28d6c41e-86b4-44cb-ba23-7f31fcd26090">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flex_sdk_4.6" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Away3dLib" exported="" />
+    <orderEntry type="module" module-name="FlexLiteLib" exported="" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="28d6c41e-86b4-44cb-ba23-7f31fcd26090" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/colorPicker.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
